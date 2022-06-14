@@ -1,2 +1,39 @@
 # focus-metrics
- Functions to measure the focus level of fluorescence images
+ Functions to measure the focus level of fluorescence images.
+
+
+## `fmeasure`
+The original Matlab implementation of the focus metrics accompanying Pertuz et al. (2013)[^1] from which `fmetrics` was translated.
+
+**Focus Measure**
+> This function measures the relative degree of focus of an image. Several up-to-date focus measuring algorithms have been implemented and the function supports uint8 or double images. For futher details on each focus measuring algorithm the reader is referred to [^1] and the references therein. For further information and datasets, see https://sites.google.com/view/cvia/focus-measure [^2]
+
+[^1]: https://doi.org/10.1016/j.patcog.2012.11.011
+[^2]: https://www.mathworks.com/matlabcentral/fileexchange/27314-focus-measure
+
+
+## `fmetrics`
+Implemented focus metrics
+
+|      | Focus Metric               | Reference
+| ---- | -------------------------- | ---------
+| ACMO | Absolute central moment    | 
+| BREN | Brenner's focus measure    | 
+| CURV | Image curvature            | 
+| GDER | Gaussian derivative        | 
+| GLVA | Gray-level variance        | 
+| GLVV | Gray-level local variance  | 
+| GRAE | Energy of gradient         | 
+| GRAT | Thresholded gradient       | 
+| GRAS | Squared gradient           | 
+| HELM | Helmli's measure           | 
+| HISE | Histogram entropy          | 
+| LAPE | Energy of Laplacian        | 
+| LAPM | Modified Laplacian         | 
+| LAPV | Variance of Laplacian      | 
+| LAPD | Diagonal Laplacian         | 
+| SFIL | Steerable filters-based    | 
+| SFRQ | Spatial frequency          | 
+| TENG | Tenegrad                   | 
+| TENV | Tenengrad variance         | 
+| VOLA | Vollat's correlation-based | 
