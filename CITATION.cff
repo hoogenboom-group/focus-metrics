@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "focus-metrics"
+version: "0.1"
+authors:
+  - given-names: Ryan
+    family-names: Lane
+    email: r.i.lane@tudelft.nl
+    affiliation: Delft University of Technology
+    orcid: https://orcid.org/0000-0002-5887-2069
+date-released: 2022-06-14
+license: MIT
+repository: "https://github.com/hoogenboom-group/focus-metrics/"
