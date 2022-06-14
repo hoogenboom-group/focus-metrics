@@ -3,12 +3,12 @@
 
 
 ## `fmeasure`
-The original Matlab implementation of the focus metrics accompanying Pertuz et al. (2013)[^1] from which `fmetrics` was translated.
+The original Matlab implementation of the focus metrics accompanying [Pertuz et al. (2013)](https://doi.org/10.1016/j.patcog.2012.11.011) from which `fmetrics` was translated.[^1]
 
-**Focus Measure**[^2]
+**Focus Measure** [^2]
 > This function measures the relative degree of focus of an image. Several up-to-date focus measuring algorithms have been implemented and the function supports uint8 or double images. For futher details on each focus measuring algorithm the reader is referred to [1] and the references therein. For further information and datasets, see https://sites.google.com/view/cvia/focus-measure
 
-[^1]: Pertuz, Said, Domenec Puig, and Miguel Angel Garcia. "Analysis of focus measure operators for shape-from-focus." Pattern Recognition 46.5 (2013): 1415-1432. https://doi.org/10.1016/j.patcog.2012.11.011
+[^1]: Pertuz, Said, Domenec Puig, and Miguel Angel Garcia. "Analysis of focus measure operators for shape-from-focus." Pattern Recognition 46.5 (2013): 1415-1432.  
 [^2]: https://www.mathworks.com/matlabcentral/fileexchange/27314-focus-measure
 
 
